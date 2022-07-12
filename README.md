@@ -44,7 +44,7 @@ rangasthalam array - [5,2,0,0,0,0,4,3]
 
 like this we have generated arrays of length ten thousand for all 9668 movies
 
-# findig similarity using each movie with another using cosine similarity
+# finding similarity between each movie with another using cosine similarity
 
 evreything upto feature making is completed, now its turn for the most interesting part - we need to find the similarity between two movies based on the tags.
 if we use euclidian distance it will be a most computationally hectic process so i have used cosine similarity.
