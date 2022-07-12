@@ -1,4 +1,4 @@
-# amazonprime-movie-recommendation-engine by content based filering.
+# amazonprime-movie-recommendation-engine by content based filering using streamlit application.
 
 
 first of all imported the dataset from the kaggle link - https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
