@@ -33,16 +33,13 @@ the number of words in the tags column mapped with each word in top 10 thousand 
 if the movies are ['Avatar' , 'Batman' , 'Rangasthalam'] and the tags of this movies in the top ten words for this 3 movies tags are 
 ['village' , 'drama' , 'adventure' , 'billionaire' , 'pandora' , 'spaceship' , 'brother' , 'revenge'] if we map movies titls with this list we get.
 
-                  village     drama    adventure   billionaire    pandora    spaceship    brother     revenge
-avatar                0         1         1           0              2          5            0          2
-batman                0          0         1           3              0         1            0           2
-rangasthalam           5         2         0           0              0         0             4          3
+![image](https://user-images.githubusercontent.com/68850280/178469153-d2301ec0-b7a4-45b4-9fb5-810cb71d6b5c.png)
 
 avatar array - [0,1,1,0,2,5,0,2]
 batman array - [0,0,1,3,0,1,0,2]
 rangasthalam array - [5,2,0,0,0,0,4,3]
 
-like this we have generated arrays of length ten thousand for all 9668 movies
+like this we have generated arrays of length 10000 for each one of 9668 movies making the matrix ## 9668 X 10000
 
 # finding similarity between each movie with another using cosine similarity
 
